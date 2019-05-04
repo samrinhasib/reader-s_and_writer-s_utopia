@@ -1,4 +1,6 @@
 # reader-s_and_writer-s_utopia
+Name: Reader's and Writer's Utopia
+
 Live App: https://samrinhasib.github.io/reader-s_and_writer-s_utopia/
 
 *A user is referred to as a writer because the site is meant to target writers (and readers of course).
@@ -18,3 +20,7 @@ There are be four pages available in total; in addition, there will be buttons l
 -On the Read page, the writer will have the ability to search for bestsellers according to genre and book reviews.
 The writer will choose an NYT category using a dropdown menu to find bestsellers and will receive the first ten results if there are more than ten or ten otherwise; by inserting a name into the input for the Name under "Find a Review", he or she will get a link to the NYT Review or be told that the review was not found.
 -On the Help Peers Out page, the writer will be able to search for works of other users that are public on WordPress sing a keyword. Here, the writer can search up to 10 results but not more; he/she can set a max number.
+
+Read Page:
+
+
