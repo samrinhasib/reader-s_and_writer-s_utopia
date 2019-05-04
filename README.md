@@ -3,6 +3,7 @@ Name: Reader's and Writer's Utopia
 
 Live App: https://samrinhasib.github.io/reader-s_and_writer-s_utopia/
 
+Summary:
 *A user is referred to as a writer because the site is meant to target writers (and readers of course).
 
 Overall: 
@@ -26,5 +27,18 @@ Read Page:
 ![Tryout](https://user-images.githubusercontent.com/47932989/57174973-6ab29300-6e14-11e9-8f80-869fba5c0e22.JPG)
 
 ![Captureresult1](https://user-images.githubusercontent.com/47932989/57175030-14921f80-6e15-11e9-80bc-53c56cb84e12.JPG)
+
+Study Section:
+
+![Study_Section1](https://user-images.githubusercontent.com/47932989/57175106-c5002380-6e15-11e9-9609-e40e9d2f392f.JPG)
+![Study_section_0](https://user-images.githubusercontent.com/47932989/57175107-c5002380-6e15-11e9-83ae-21d603e59acf.JPG)
+
+
+Help Peers Out Section:
+![help_peers1](https://user-images.githubusercontent.com/47932989/57175109-c9c4d780-6e15-11e9-900a-a6ad9e260b9e.JPG)
+![help_peers2](https://user-images.githubusercontent.com/47932989/57175110-c9c4d780-6e15-11e9-9d9a-d9d65cffd7f4.JPG)
+
+Technology Used: HTML5, CSS, JavaScript(jQuery)
+
 
 
