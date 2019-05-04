@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Readers' and Writers' Utopia" content="A place for readers and writers to come and read bestsellers, search reviews of books they are thinking about reading, find textbooks if they are in school and finally, to read peer works for some motivation.">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha384-wZ9p4DIAfqSEtkGvPqfSZNPnW82cHXUU8O5lkp6BweEBUowLIFrpprY/BAfhBg6N" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id = "container1" role = "navigation">
+      <ul id = "mainnav">
+        <li class = "nav" id = "home" tabindex = '0' role = "button">Home</li>
+        <li class = "nav" id = "study" tabindex = '0' role = "button">Study</li>
+        <li class = "nav" id = "read" tabindex = '0' role = "button">Read</li>
+        <li class = "nav" id = "peers" tabindex = '0' role = "button">Help Peers Out</li>
+      </ul>
+    </nav>
+    <section id = "container2">
+      <div class = "homepage">
+        <h1 class = "welcome">Welcome Readers and Aspiring Writers!</h1>
+        <p>This is your world to do all that you love! We understand you might be in school and could use some help with finding information about textbooks. Click "Study" and find your textbooks!</p>
+        <p>If you want some relief from school and just read something you love for a change, click "Read"!</p>
+        <p>If you want to check out the work of other writers for some inspiration, hit the "Help Peers Out" button.</p>
+        </div>
+        </section>
+        <form class = "peers wpstuff" role = "search">
+          <fieldset>
+            <legend class = "peer"><h2>Find a Peer's Work!</h2></legend>
+            <p><span class = "instruct"><u>Instructions</u>:</span>  Enter a tag for a topic of your choice. For example, you can enter "nyc" for New York City if you want to read about New York City. Enter one word.</p>
+            Key Word: <input type = "text" id = "keyword" name = "Key Word"></br></br>
+            <button type = "button" name = "Search!" id = "searchit">Search!</button> 
+          </fieldset>
+        </form>
+        <form class = "nytimes wpstuff" role = "search">
+          <legend><h3>Find Bestsellers!</h3></legend>
+          <p><span class = "instruct"><u>Instructions</u>:</span>  To find the top 10 best sellers in a particular category from the New York Times, select a type and click "Find Bestsellers!"</p>
+          <span>Type:</span>
+          <select id = "typeofbook">
+          </select>
+          <button type = "button" id = "nyt">Find Bestsellers!</button></br></br>
+            <legend><h3>Find a Review!</h3></legend>
+            <p><span class = "instruct"><u>Instructions</u>:</span>  To find a particular book review from the New York Times, type the name of a book and click "Find Review!"</p>
+            <span>Name:</span> <input type = "text" id = "bookreview" name = "Name">
+            <button type = "button" id = "findreview">Find Review!</button></br>
+            </form>
+            <form class = "getTextbooks wpstuff" role = "search">
+              <legend><h3>Find a Textbook on Google Books!</h3></legend></br>
+              <span><span id="bookish">Textbook</span> Name:</span> <input type = "text" name = "Textbook Name" id = "textname"></br></br>
+              <span>Author:</span> <input type = "text" name = "Author" id = "bookauthor"></br></br>
+              <button type = "button" id = "preview">Get Book!</button>
+              </form>
+              <div class = "promotepeers" id = "container3"></div> 
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+              <script src="script.js"></script>
+              <script src = "script1.js"></script>
+              <script src = "script2.js"</script>
+              </body>
+              </html>
